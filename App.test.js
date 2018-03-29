@@ -1,6 +1,6 @@
 import React from 'react';
 import App from "./App";
-import { Tweet } from "./Components";
+import { Tweet } from "./App/Components";
 
 import renderer from 'react-test-renderer';
 

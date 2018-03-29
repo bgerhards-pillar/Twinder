@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { Tweet } from './Components';
+import { Tweet } from './App/Components';
 
 export default class App extends React.Component<void, void> {
   render() {
