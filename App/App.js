@@ -2,11 +2,13 @@
 
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import { Tweet } from './Components';
 
 export default class App extends React.Component<void, void> {
   render() {
     return (
       <View style={styles.container}>
+        <Tweet />
       </View>
     );
   }
