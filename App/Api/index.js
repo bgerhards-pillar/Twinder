@@ -10,6 +10,6 @@ export default class {
   }
 
   getTweets() {
-    // statuses/home_timeline;
+    return this.client.get("statuses/home_timeline", { count: 1 });
   }
 }
