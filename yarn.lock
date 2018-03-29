@@ -2519,6 +2519,10 @@ find-up@^2.0.0, find-up@^2.1.0:
   dependencies:
     locate-path "^2.0.0"
 
+flow-bin@^0.68.0:
+  version "0.68.0"
+  resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.68.0.tgz#86c2d14857d306eb2e85e274f2eebf543564f623"
+
 follow-redirects@^1.2.3:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.4.1.tgz#d8120f4518190f55aac65bb6fc7b85fcd666d6aa"
@@ -5267,7 +5271,7 @@ react-native-safe-module@^1.1.0:
   dependencies:
     dedent "^0.6.0"
 
-react-native-scripts@1.12.0:
+react-native-scripts@^1.12.0:
   version "1.12.0"
   resolved "https://registry.yarnpkg.com/react-native-scripts/-/react-native-scripts-1.12.0.tgz#acbdb8bc8f7668e2dad15223c8777b99ba481966"
   dependencies:
