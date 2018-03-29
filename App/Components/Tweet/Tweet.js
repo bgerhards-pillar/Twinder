@@ -6,7 +6,7 @@ import { StyleSheet, Text, View } from "react-native";
 export default class Tweet extends React.Component<void, void> {
   render() {
     return (<View>
-      <Text>Hello</Text>
+      <Text>Hello from Twitter world</Text>
     </View>);
   }
 }
