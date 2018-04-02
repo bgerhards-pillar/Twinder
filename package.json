@@ -21,6 +21,7 @@
     "flow-bin": "^0.68.0",
     "react": "16.2.0",
     "react-native": "0.52.0",
+    "react-native-twitter": "^0.2.1",
     "twitter": "^1.7.1"
   },
   "devDependencies": {

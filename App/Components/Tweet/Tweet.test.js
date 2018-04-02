@@ -10,7 +10,8 @@ it("renders without crashing", () => {
 });
 
 it("renders with text", () => {
-  const instance = renderer.create(<Tweet />).root;
+  const instance = renderer.create(<Tweet>Hello from Twitter world</Tweet>)
+    .root;
   const text = instance.findByType(Text).props.children;
-  expect(text).toEqual('Hello from Twitter world');
+  expect(text).toEqual("Hello from Twitter world");
 });

@@ -1,12 +1,18 @@
 //@flow
 
-import React from "react";
+import * as React from "react";
 import { StyleSheet, Text, View } from "react-native";
 
-export default class Tweet extends React.Component<void, void> {
+type Props = {
+  children?: React.Node
+};
+
+export default class Tweet extends React.Component<Props, void> {
   render() {
-    return (<View>
-      <Text>Hello from Twitter world</Text>
-    </View>);
+    return (
+      <View>
+        <Text>{this.props.children}</Text>
+      </View>
+    );
   }
 }
